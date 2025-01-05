@@ -1,0 +1,21 @@
+{
+    "kind": "collectionType",
+    "collectionName": "roadmap_steps",
+    "info": {
+        "singularName": "roadmap-step",
+        "pluralName": "roadmap-steps",
+        "displayName": "Roadmap step"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        }
+    }
+}

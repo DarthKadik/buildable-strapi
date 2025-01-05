@@ -1,0 +1,28 @@
+{
+    "kind": "collectionType",
+    "collectionName": "form_responses",
+    "info": {
+        "singularName": "form-response",
+        "pluralName": "form-responses",
+        "displayName": "Form Response",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "form": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::form.form",
+            "inversedBy": "form_responses"
+        },
+        "data": {
+            "type": "json"
+        },
+        "submitted_at": {
+            "type": "datetime"
+        }
+    }
+}

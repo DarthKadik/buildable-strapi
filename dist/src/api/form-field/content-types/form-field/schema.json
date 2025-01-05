@@ -1,0 +1,49 @@
+{
+    "kind": "collectionType",
+    "collectionName": "form_fields",
+    "info": {
+        "singularName": "form-field",
+        "pluralName": "form-fields",
+        "displayName": "Form Field",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "label": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "forms": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::form.form",
+            "inversedBy": "form_fields"
+        },
+        "type": {
+            "type": "enumeration",
+            "enum": [
+                "shortText",
+                "longText",
+                "email",
+                "date",
+                "radio",
+                "checkbox",
+                "file"
+            ]
+        },
+        "options": {
+            "type": "json"
+        },
+        "required": {
+            "type": "boolean"
+        },
+        "order": {
+            "type": "integer"
+        }
+    }
+}

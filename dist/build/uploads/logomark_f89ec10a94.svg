@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2" viewBox="0 0 52.64 60.79" width="52.63999938964844" height="60.790000915527344">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="LOGO">
+    <g>
+      <path class="cls-1" d="m39.49,22.8V7.6S26.32,0,26.32,0L0,15.2v30.39l26.32,15.2,26.32-15.2v-15.2l-13.16-7.6Zm-13.16,22.8l-13.16-7.6v-15.2l13.16-7.6v15.2l13.16,7.59h0s-13.16,7.61-13.16,7.61Z"/>
+      <polygon class="cls-1" points="39.48 37.99 39.48 37.99 26.32 30.39 39.48 37.99"/>
+    </g>
+  </g>
+</svg>
